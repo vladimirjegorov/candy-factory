@@ -2,7 +2,7 @@
 <Configuration>
   <Appenders>
     <File name="A1" fileName="candy-factory.log" append="false">
-      <PatternLayout pattern="%d %-5p [%t] %C: %m%n"/>
+      <PatternLayout pattern="%d | %-5p [%t] %C: %m%n"/>
     </File>
     <Console name="Console" target="SYSTEM_OUT">
       <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
